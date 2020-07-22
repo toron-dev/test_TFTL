@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    cursor: url('../images/cursor-circle.png'), auto;
+    font-family: "TTTravels";
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #000;
+    background-color: #fff;
+    height: 100vh;
+    overflow: hidden;
+}
+p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
